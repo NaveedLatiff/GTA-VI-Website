@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'PricedownBI';
+  src: url('/fonts/Pricedown BI.otf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+.gta-text , .nav-heading{
+    font-family: PricedownBI;
+}
