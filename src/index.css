@@ -4,14 +4,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PricedownBI";
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
+}
+body{
+    background-color: black;
 }
 
 @font-face {
-  font-family: 'PricedownBI';
-  src: url('/fonts/Pricedown BI.otf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
+    font-family: 'PricedownBI';
+    src: url('/fonts/Pricedown BI.otf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
+
+.about-btn{
+    padding: 4px 10px;
+}
+
+@media (max-width:720px){
+    .footer-heading{
+        margin-top: -25px;
+    }
+    .footer-box{
+        /* border: none; */
+        border-radius: 2px solid gray ;
+        height: 15%;
+    }
+    .logo{
+        margin-top: -240px;
+    }
+
+}
+
+@media (max-width:600px){
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .obj-img-1{
+        width:50%;
+        left: -10%;
+    }
+    .obj-img-2{
+        width:40%;
+        right: -15%;
+    }
+    .obj-img-3{
+        width: 50%;
+        right: -15%;
+    }
+    .about-main-heading-1{
+        font-size: 8vw;
+    }
+    .about-main-heading-2{
+        font-size: 4vw;
+    }
+    .about-btn{
+        padding:2px 20px ;
+    }
+    .footer-heading{
+        margin-top: -40px;
+    }
+    .footer-box-h-1{
+        font-size: 2.5vw;
+    }
+    .footer-box-h-2{
+        font-size: 1.9vw;
+    }
+}
+
 
