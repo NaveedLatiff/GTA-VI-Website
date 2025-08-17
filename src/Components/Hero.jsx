@@ -1,7 +1,7 @@
 import React from 'react'
-import sky from "../assets/sky.png"
-import bg from "../assets/bg.png"
-import girl from "../assets/girlbg.png"
+import sky from "../assets/sky.webp"
+import bg from "../assets/bg.webp"
+import girl from "../assets/girlbg.webp"
 const Hero = ({move}) => {
   return (
         <div onMouseMove={move} className=" hero h-full w-full">
