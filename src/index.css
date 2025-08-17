@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -18,61 +19,83 @@ body{
     font-style: italic;
 }
 
-.about-btn{
+.about-btn {
     padding: 4px 10px;
 }
 
-@media (max-width:720px){
-    .footer-heading{
+@media (max-width:720px) {
+    .footer-heading {
         margin-top: -25px;
     }
-    .footer-box{
+
+    .footer-box {
         /* border: none; */
-        border-radius: 2px solid gray ;
+        border-radius: 2px solid gray;
         height: 15%;
     }
-    .logo{
+
+    .logo {
         margin-top: -240px;
     }
 
 }
 
-@media (max-width:600px){
-    .about{
+@media (max-width:600px) {
+    .about {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 9px;
     }
-    .obj-img-1{
-        width:50%;
+
+    .obj-img-1 {
+        width: 50%;
         left: -10%;
     }
-    .obj-img-2{
-        width:40%;
+
+    .obj-img-2 {
+        width: 40%;
         right: -15%;
     }
-    .obj-img-3{
+
+    .obj-img-3 {
         width: 50%;
         right: -15%;
     }
-    .about-main-heading-1{
+
+    .about-main-heading-1 {
         font-size: 8vw;
     }
-    .about-main-heading-2{
+
+    .about-main-heading-2 {
         font-size: 4vw;
     }
-    .about-btn{
-        padding:2px 20px ;
+
+    .about-btn {
+        padding: 2px 20px;
     }
-    .footer-heading{
+
+    .footer-heading {
         margin-top: -40px;
     }
-    .footer-box-h-1{
+
+    .footer-box-h-1 {
+        font-size: 2.7vw;
+    }
+
+    .footer-box-h-2 {
+        font-size: 2vw;
+    }
+
+    .about-text-1 {
         font-size: 2.5vw;
     }
-    .footer-box-h-2{
-        font-size: 1.9vw;
+
+    .about-text-2 {
+        font-size: 2.2vw;
+    }
+
+    .about-text-3 {
+        font-size: 2vw;
     }
 }
-
-
