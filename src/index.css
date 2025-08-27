@@ -31,7 +31,7 @@ body {
     .footer-box {
         /* border: none; */
         border-radius: 2px solid gray;
-        height: 15%;
+       
     }
 
     .logo {
@@ -80,11 +80,11 @@ body {
     }
 
     .footer-box-h-1 {
-        font-size: 2.7vw;
+        font-size: 2.4vw;
     }
 
     .footer-box-h-2 {
-        font-size: 2vw;
+        font-size: 1.9vw;
     }
 
     .about-text-1 {
