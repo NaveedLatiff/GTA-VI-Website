@@ -2,13 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-<div className='footer h-full bg-black text-white flex flex-col gap-3.5 justify-center items-center'>
+ <div className='footer h-full bg-black text-white flex flex-col gap-3.5 justify-center items-center'>
             <div style={{ marginBottom: "30px" }} className='logo h-[25%] w-[25%] '>
               <img
-
-                className='h-full w-full object-contain '
+                 className='h-full w-full object-contain '
                 src="./grandTheftAutoLogo.png"
-                alt="logo" />
+                alt="logo"
+                loading="lazy"
+                decoding="async" />
             </div>
             <div style={{ marginBottom: "30px" }} className=' w-[42%] text-center '>
               <h1 className='footer-heading text-[5vw] leading-none font-extrabold'>COMING SOON MAY 26 2026</h1>
@@ -19,6 +20,8 @@ const Footer = () => {
                   className='h-[25%] w-[6%] object-contain '
                   src='./rockstar.jpeg'
                   alt='rockstar'
+                  loading="lazy"
+                  decoding="async"
                 />
                 <h1 className='text-[2vw]  footer-box-h-1'>GET ROCKSTAR PROPOGANDA</h1>
               </div>

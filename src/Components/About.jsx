@@ -9,26 +9,36 @@ const About = () => {
                 className='obj-img-1 object-contain h-[50%] w-[45%] absolute top-[0%] left-[3%]'
                 src="./about.webp"
                 alt="about"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 className='obj-img-2 object-contain h-[50%] w-[35%] absolute top-[-1%] right-[10%] '
                 src="./about2.webp"
                 alt="about"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 className='obj-img-2 object-contain h-[50%] w-[35%] absolute top-[30%] left-[34%] '
                 src="./about3.webp"
                 alt="about"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 className='obj-img-2 object-contain h-[50%] w-[35%] absolute top-[56%] left-[3%] '
                 src="./about4.webp"
                 alt="about"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 className='obj-img-3 object-contain h-[50%] w-[45%] absolute top-[56%] right-[10%] '
                 src="./about5.webp"
                 alt="about"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className='h-full w-[50%] flex flex-col justify-center items-center text-white ' style={{ padding: "0 20px" }}>
